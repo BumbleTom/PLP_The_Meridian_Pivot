@@ -39,5 +39,37 @@ Both commands load and display the CSV file contents
 
 <img width="981" height="480" alt="image" src="https://github.com/user-attachments/assets/b1a24842-5c31-493c-8919-a0c60741ffc6" />
 
+# Loading and Comparing Data from both inventories
+
+## Navigate to the folder, Merge the data, Identify Mismatches and print alerts
+
+### pd.read_csn()
+- This function from Pandas reads your CSV files and turns them into DataFrames
+
+### Merge the data
+- I used pd.merge() to combine both tables based on the shared column item_name.
+- With this I compared each product’s stock side‑by‑side.
+
+### Identifying Mismatches
+- My filter rows are:
+  - The store has no stock (stock_quantity_store == 0)
+  - The supplier still has stock (stock_quantity_supplier > 0)
+  
+### Print Alerts
+- This step ensures my support tool always gives accurate “is this in stock?” answers by comparing live supplier and store data.
+
+- ** cd "E:/inventory sync" **
+- ** python sync_check.py **
+
+<img width="981" height="404" alt="image" src="https://github.com/user-attachments/assets/1f8e6bf0-d8b0-4518-aaa9-58608eb5c44e" />
+
+
+
+
+
+
+
+
+
 
 

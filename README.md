@@ -4,6 +4,14 @@ The Meridian Pivot:  This is a sprint‑phase prototype that tests adaptability 
 The project delivers a live inventory sync service that compares supplier (Y) and store (X) stock data, ensuring the support tool’s “is this in stock?” answers remain accurate. 
 This prototype demonstrates independent learning (new tools for data sync and notifications), troubleshooting (documenting blockers and resolutions), and refactoring to meet pivot constraints. It also serves as evidence of adaptability, communication, and composure during the sprint evaluation phase.
 
+# Conflict escalation path
+
+| **Level** | **Action** | **Goal** | **Outcome** |
+| --- | --- | --- | --- |
+| **1. Self‑Resolution** | Document blockers in the **Learning & Blocker Journal** and attempt independent troubleshooting using docs, forums, and prototypes. | Solve issues independently and build resilience. | If resolved, record the fix and continue sprint work. |
+| **2. Mentor Escalation** | Escalate unresolved blockers to sprint lead/mentor for guidance. | Gain clarity on trade‑offs, prioritization, or technical direction. | Document mentor input in the **Change Log** and adjust backlog accordingly. |
+| **3. Final Reflection** | Capture the escalation path in the **Individual Adaptability Index**. | Reflect on composure, communication, and flexibility under pressure. | Demonstrate adaptability and structured problem‑solving in final evaluation. |
+
 # Tool Assigned - Python with Pandas (data manipulation & automation)
 
 - Documenting blockers while setting up Python environment and libraries.

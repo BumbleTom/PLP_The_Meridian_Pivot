@@ -4,6 +4,13 @@ The Meridian Pivot:  This is a sprint‑phase prototype that tests adaptability 
 The project delivers a live inventory sync service that compares supplier (Y) and store (X) stock data, ensuring the support tool’s “is this in stock?” answers remain accurate. 
 This prototype demonstrates independent learning (new tools for data sync and notifications), troubleshooting (documenting blockers and resolutions), and refactoring to meet pivot constraints. It also serves as evidence of adaptability, communication, and composure during the sprint evaluation phase.
 
+# Tool Assigned - Python with Pandas (data manipulation & automation)
+
+- Documenting blockers while setting up Python environment and libraries.
+- Created a script to merge supplier and store inventories, detect out‑of‑stock items, and trigger alerts.
+- Adjusted logic to handle tab issues in CSV files and ensured duplicate protection.
+- Delivered a working prototype that demonstrated adaptability under shifting requirements.
+
 # 1. Setting Up the Inventory Folder
 - Creating a folder named **Inventory sync**
 - Inside, added two CSVs named, **Supplier Inventory** and **Store Inventory**

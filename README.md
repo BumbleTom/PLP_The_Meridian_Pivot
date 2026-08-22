@@ -63,6 +63,23 @@ Both commands load and display the CSV file contents
 
 <img width="981" height="404" alt="image" src="https://github.com/user-attachments/assets/1f8e6bf0-d8b0-4518-aaa9-58608eb5c44e" />
 
+# Adding Notifications and Automating the Sync
+
+Extending the script to notify when items are out of stock in store but available at supplier.
+
+I've achieve the notification with the SMTP - Email
+
+<img width="986" height="518" alt="image" src="https://github.com/user-attachments/assets/ad72a1d0-bee5-4fcf-84f6-a855fea16092" />
+
+** Email alert
+
+<img width="1518" height="238" alt="image" src="https://github.com/user-attachments/assets/1117cc84-bfcd-4f86-b617-d42b622bf0ff" />
+
+
+
+
+
+
 
 
 
